@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
 	@RequestMapping("/")
 	public String index () {
-		return "redirect:/home";
+		return "user/index";
 	}
 	@RequestMapping({"/admin/**","/home/admins"})
 	public String admin () {

@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+	href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+	rel="stylesheet">
+<!-- boxicons -->
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'
+	rel='stylesheet'>
+<!-- app css -->
+<link rel="stylesheet" href="/user/css/grid.css">
+<link rel="stylesheet" href="/user/css/app.css">
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<!-- main header -->
+		<div class="header-wrapper" id="header-wrapper">
+			<span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+				<i class='bx bx-x'></i>
+			</span>
+			<div class="bg-second">
+				<div class="bg-main">
+					<div class="mid-header container">
+						<a href="/" class="logo">JasonTR</a>
+						<div class="search">
+							<input type="text" placeholder="Search"> <i
+								class='bx bx-search'></i>
+						</div>
+						<ul class="user-menu">
+						<li class="icon"><a href="#"><i
+									class='bx bx-heart'></i></a></li>
+							<li class="icon"><a href="#"><i
+									class='bx bx-cart'></i></a></li>
+							<li class="icon"><a href="#"><i class='bx bx-user'></i></a></li>
+
+
+						</ul>
+						<li class="dropdown"><a href="">Tiếng Việt</a> <i
+							class='bx bxs-chevron-down'></i>
+							<ul class="dropdown-content">
+								<li><a href="#">Tiếng Việt</a></li>
+								<li><a href="#">Tiếng Anh</a></li>
+							</ul></li>
+					</div>
+				</div>
+				<div class="bottom-header container">
+					<ul class="main-menu">
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">Về Chúng Tôi</a></li>
+						<li><a href="#">Liên Hệ</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- end bottom header -->
+		</div>
+		<!-- end main header -->
+	</header>
+	<!-- end header -->
+
+	<!-- hero section -->
+	<div class="hero">
+		<div class="slider">
+			<div class="container">
+				<!-- slide item -->
+				<div class="slide active">
+					<div class="info">
+						<div class="info-content">
+							<h3 class="top-down">JBL TUNE 750TNC</h3>
+							<h2 class="top-down trans-delay-0-2">Next-gen design</h2>
+							<p class="top-down trans-delay-0-4">Lorem ipsum dolor sit
+								amet consectetur adipisicing elit. Obcaecati dolor commodi
+								dignissimos culpa, eaque eos necessitatibus possimus veniam,
+								cupiditate rerum deleniti? Libero, ducimus error? Beatae velit
+								dolore sint explicabo! Fugit.</p>
+							<div class="top-down trans-delay-0-6">
+								<button class="btn-flat btn-hover">
+									<span>Mua ngay</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="img top-down">
+						<img
+							src="/user/images/JBL_E55BT_KEY_RED_6063_FS_x1-1605x1605px.webp"
+							alt="">
+					</div>
+				</div>
+				<!-- end slide item -->
+				<!-- slide item -->
+				<div class="slide">
+					<div class="info">
+						<div class="info-content">
+							<h3 class="top-down">JBL Quantum ONE</h3>
+							<h2 class="top-down trans-delay-0-2">Ipsum dolor</h2>
+							<p class="top-down trans-delay-0-4">Lorem ipsum dolor sit
+								amet consectetur adipisicing elit. A optio, voluptatum aperiam
+								nobis quis maxime corporis porro alias soluta sunt quae
+								consectetur aliquid blanditiis perspiciatis labore cumque,
+								ullam, quam eligendi!</p>
+							<div class="top-down trans-delay-0-6">
+								<button class="btn-flat btn-hover">
+									<span>Mua ngay</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="img right-left">
+						<img
+							src="/user/images/JBL_E55BT_KEY_BLACK_6175_FS_x1-1605x1605px.png"
+							alt="">
+					</div>
+				</div>
+				<!-- end slide item -->
+				<!-- slide item -->
+				<div class="slide">
+					<div class="info">
+						<div class="info-content">
+							<h3 class="top-down">JBL JR 310BT</h3>
+							<h2 class="top-down trans-delay-0-2">Consectetur Elit</h2>
+							<p class="top-down trans-delay-0-4">Lorem ipsum dolor, sit
+								amet aiciis temporibus odit deserunt molestiae amet quam,
+								asperiores, iure recusandae nulla labore!</p>
+							<div class="top-down trans-delay-0-6">
+								<button class="btn-flat btn-hover">
+									<span>shop now</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="img left-right">
+						<img
+							src="/user/images/JBL_JR 310BT_Product Image_Hero_Skyblue.png"
+							alt="">
+					</div>
+				</div>
+				<!-- end slide item -->
+			</div>
+			<!-- slider controller -->
+			<button class="slide-controll slide-next">
+				<i class='bx bxs-chevron-right'></i>
+			</button>
+			<button class="slide-controll slide-prev">
+				<i class='bx bxs-chevron-left'></i>
+			</button>
+			<!-- end slider controller -->
+		</div>
+	</div>
+	<!-- end hero section -->
+
+	<!-- product list -->
+	<div class="section">
+		<div class="container">
+			<div class="section-header">
+				<h2>Latest product</h2>
+			</div>
+			<div class="row" id="latest-products">
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="product-card">
+						<div class="product-card-img">
+							<img src="/user/images/JBL_Quantum_400_Product Image_Hero 02.png"
+								alt=""> <img
+								src="/user/images/JBL_Quantum_400_Product Image_Hero Mic Up.webp"
+								alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<button class="btn-flat btn-hover btn-shop-now">shop
+									now</button>
+								<button class="btn-flat btn-hover btn-cart-add">
+									<i class='bx bxs-cart-add'></i>
+								</button>
+								<button class="btn-flat btn-hover btn-cart-add">
+									<i class='bx bxs-heart'></i>
+								</button>
+							</div>
+							<div class="product-card-name">JBL Quantum 400</div>
+							<div class="product-card-price">
+								<span><del>$300</del></span> <span class="curr-price">$200</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section-footer">
+				<a href="/user/products.html" class="btn-flat btn-hover">view
+					all</a>
+			</div>
+		</div>
+	</div>
+	<!-- end product list -->
+
+	<!-- special product -->
+	<div class="bg-second">
+		<div class="section container">
+			<div class="row">
+				<div class="col-4 col-md-4">
+					<div class="sp-item-img">
+						<img
+							src="/user/images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png"
+							alt="">
+					</div>
+				</div>
+				<div class="col-7 col-md-8">
+					<div class="sp-item-info">
+						<div class="sp-item-name">JBL TUNE 750TNC</div>
+						<p class="sp-item-description">Lorem ipsum dolor sit amet
+							consectetur adipisicing elit. Labore dignissimos itaque et eaque
+							quod harum vero autem? Reprehenderit enim non voluptate! Qui
+							provident modi est non eius ratione, debitis iure.</p>
+						<button class="btn-flat btn-hover">shop now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end special product -->
+
+	<!-- product list -->
+	<div class="section">
+		<div class="container">
+			<div class="section-header">
+				<h2>best selling</h2>
+			</div>
+			<div class="row" id="best-products">
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="product-card">
+						<div class="product-card-img">
+							<img src="/user/images/JBL_Quantum_400_Product Image_Hero 02.png"
+								alt=""> <img
+								src="/user/images/JBL_Quantum_400_Product Image_Hero Mic Up.webp"
+								alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<button class="btn-flat btn-hover btn-shop-now">shop
+									now</button>
+								<button class="btn-flat btn-hover btn-cart-add">
+									<i class='bx bxs-cart-add'></i>
+								</button>
+								<button class="btn-flat btn-hover btn-cart-add">
+									<i class='bx bxs-heart'></i>
+								</button>
+							</div>
+							<div class="product-card-name">JBL Quantum 400</div>
+							<div class="product-card-price">
+								<span><del>$300</del></span> <span class="curr-price">$200</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section-footer">
+				<a href="/user/products.html" class="btn-flat btn-hover">view
+					all</a>
+			</div>
+		</div>
+	</div>
+	<!-- end product list -->
+
+
+
+	<!-- footer -->
+	<footer class="bg-second">
+		<div class="container">
+			<div class="row">
+				<div class="col-9 col-md-9">
+					<h3 class="footer-head">Products</h3>
+					<ul class="menu">
+						<li><a href="#">Help center</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">product help</a></li>
+						<li><a href="#">warranty</a></li>
+						<li><a href="#">order status</a></li>
+					</ul>
+				</div>
+
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="contact">
+						<h3 class="contact-header">JasonTR</h3>
+						<ul class="contact-socials">
+							<li><a href="#"> <i class='bx bxl-facebook-circle'></i>
+							</a></li>
+							<li><a href="#"> <i class='bx bxl-instagram-alt'></i>
+							</a></li>
+							<li><a href="#"> <i class='bx bxl-youtube'></i>
+							</a></li>
+							<li><a href="#"> <i class='bx bxl-twitter'></i>
+							</a></li>
+						</ul>
+					</div>
+					<div class="subscribe">
+						<input type="email" placeholder="ENTER YOUR EMAIL">
+						<button>Theo dõi</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<!-- app js -->
+	<script src="/user/js/app.js"></script>
+	<script src="/user/js/index.js"></script>
+</body>
+
+</html>
